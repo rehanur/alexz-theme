@@ -2,7 +2,8 @@
    {
         "name": "Alexz-Minimalist Portfolio Website",
         "short_name": "Alexz",
-        "start_url": ".alexz",
+                "start_url": "https://nervous-leavitt-626ff3.netlify.app/",
+
         "display": "standalone",
         "background_color": "#fff",
         "theme_color": "#fff",
