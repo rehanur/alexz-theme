@@ -1,0 +1,185 @@
+/*============================================================container========================================================*/
+/*!
+ * Opacity Grid v1.0.2-beta1 (https://code-opacity.github.io/opacity/)
+ * Copyright 2020-2021 The CodeOpacity Authors
+ * Copyright 2020-2021 Opacity, Inc.
+ * Licensed under MIT (https://github.com/twbs/codeopacity/blob/main/LICENSE)
+ */
+ @import url("./opacity.flex.css");
+:root{
+--text: #111;
+--gap:2rem;
+--col:1;
+--colwidth:1fr;
+--p: 16px;
+--pad: 15px;
+}
+
+.container,.container-xl {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (min-width: 576px) {
+  .container,.container-xl {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+ .container,.container-xl {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container,.container-xl {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,.container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xl {
+    max-width: 1300px;
+  }
+}
+
+/*============================================================container========================================================*/
+.grid{
+display: grid;
+grid-template-columns: repeat(var(--col),var(--colwidth));
+}
+.grid-2{
+grid-template-columns: repeat(2,1fr);
+}
+.grid-3{
+grid-template-columns: repeat(3,1fr);
+}
+.grid-4{
+grid-template-columns: repeat(4,1fr);
+}
+.grid-5{
+grid-template-columns: repeat(5,1fr);
+}
+.grid,.grid-2,.grid-3,.grid-4,.grid-5{
+display: grid;
+align-items: center;
+justify-content: center;
+gap: var(--gap);
+}
+/*media*/
+ 
+@media screen and (max-width:768px){
+.grid,.grid-2,.grid-3{
+grid-template-columns: 1fr;
+justify-content: center;
+align-items:center;
+}
+}
+ 
+@media screen and (max-width:768px){
+.grid-3,.grid-4,.grid-5{
+grid-template-columns: repeat(2,1fr);
+justify-content: center;
+align-items:center;
+}
+}
+ 
+@media screen and (max-width: 576px){
+.grid,.grid-2,.grid-3,.grid-4,.grid-5{
+grid-template-columns: 1fr;
+justify-content: center;
+align-items:center;
+}
+ 
+}
+ 
+/*grid system ends*/
+                                                 
+/*===============align================*/
+/*align items*/
+.aic{
+align-items: center;
+}
+.aist{
+align-items: stretch!important;
+}
+
+.aifs{
+align-items: flex-start;
+}
+.aife{
+align-items: flex-end;
+}
+/*align self*/
+.asc{
+align-self: center;
+}
+.asst{
+align-self: stretch!important;
+}
+.asfs{
+align-self: flex-start;
+}
+.asfe{
+    align-self: flex-end;
+}
+/*align ends*/
+ 
+/*text alignment*/
+.tac{
+text-align: center;
+}
+.tar{
+text-align: right;
+}
+.taj{
+text-align: justify;
+}
+.tal{
+text-align: left;
+}
+/*end text align*/
+ 
+ 
+/*======justify======*/
+.jcc{
+justify-content: center;
+}
+.jcsb{
+justify-content: space-between;
+}
+.jcsa{
+    justify-content: space-around;
+}
+.jcse{
+    justify-content: space-evenly;
+}
+.jcst{
+    justify-content: stretch;
+}
+.jcfs{
+justify-content: flex-start;
+}
+.jcfe{
+justify-content: flex-end;
+}
+/*justify-self*/
+.jsc{
+justify-self: center!important;
+}
+.jsfe{
+justify-self: flex-end;
+}
+.jsst{
+    justify-self: stretch!important;
+}
+/*end justify*/
+
+.center{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,147 @@
+/*reset*/
+.flex{
+    display: flex;
+}
+.tac{
+    text-align: center;
+}
+/*reset*/
+*,::after,::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+overflow-x: hidden!important;
+line-height: 1.5;
+}
+li,ul{
+list-style-type: none;
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+button{
+border: 0;
+outline: none;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+font-weight: 350;
+margin-top: 0;
+margin-bottom: 0.5rem;
+}
+p{
+color: var(--text);
+font-size: var(--p);
+}
+ 
+h1, .h1 {
+font-size: 2.47rem;
+}
+ 
+h2, .h2 {
+font-size: 2rem;
+}
+ 
+h3, .h3 {
+font-size: 1.8rem;
+}
+ 
+h4, .h4 {
+font-size: 1.5rem;
+}
+ 
+h5, .h5 {
+font-size: 1.25rem;
+}
+ 
+h6, .h6 {
+font-size: 1rem;
+}
+ 
+p, .p{
+font-weight: 300;
+}
+/*reset*/
+/*typo*/
+.text-1 {
+font-size: 6rem;
+}
+ 
+.text-2 {
+font-size: 5.5rem;
+}
+ 
+.text-3 {
+font-size: 4.5rem;
+}
+ 
+.text-4 {
+font-size: 3.5rem;
+}
+.text-5{
+font-size: 2.5rem;
+}
+/*---------font weight--------*/
+.bold{
+font-weight: 700;
+}
+.semi-bold{
+font-weight: 500;
+}
+.normal{
+font-weight: 400;
+}
+.thin{
+font-weight: 200;
+}
+li,ul{
+list-style-type: none;
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+button{
+border: 0;
+outline: none;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+font-weight: 350;
+margin-top: 0;
+margin-bottom: 0.5rem;
+}
+p{
+color: var(--text);
+font-size: var(--p);
+}
+ 
+h1, .h1 {
+font-size: 2.47rem;
+}
+ 
+h2, .h2 {
+font-size: 2rem;
+}
+ 
+h3, .h3 {
+font-size: 1.8rem;
+}
+ 
+h4, .h4 {
+font-size: 1.5rem;
+}
+ 
+h5, .h5 {
+font-size: 1.25rem;
+}
+ 
+h6, .h6 {
+font-size: 1rem;
+}
+ 
+p, .p{
+font-weight: 300;
+}
+

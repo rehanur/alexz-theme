@@ -1,0 +1,78 @@
+Alexz Is A Portfolio, Business And Personal One Page/Multipurpose Html Template Built With Custom Opacity CSS. The Template Design Is Flat And Simple.This Template Gives Better Browsing And Great Experience.
+
+Main features:
+HTML5, CSS3 & pure js powered
+
+Responsive Modern Design & Retina ready
+
+Valid and Clean HTML5/CSS3.
+
+Modern Slider and Carousel.
+
+
+
+Custom Theme Css Styling:
+main.scss
+main.css
+main.js
+
+Resource Tree Map:
+
+Directory structure
+Skelet. comes with a directory structure that you can use for your project.
+
+skelet/
+├── css/
+│   ├── skelet.css (CSS boilerplate)
+│   └── app.css (is where all of your other CSS goes)
+├── js/
+│   ├── modules.js (is for all of your JS frameworks)
+│   └── app.js (is where all of your other JS goes)
+├── img/
+│   ├── logo.png
+│   └── touch.png
+├── LICENSE
+├── Readme.txt
+└── index.html 
+
+Documentation HTML Template
+A Sample HTML Documentation Template for Wordpress Themes, HTML Templates and Plugins. Built with Bootstrap 3.
+
+Installation
+Download the package as ZIP and edit the HTML and CSS as you like.
+
+Templates and variables
+
+/*Root Controll*/
+:root{
+    --primary: #121213;/*Customizable*/
+    --secondary: #f05454;/*Customizable*/
+    --third: #fff;/*Customizable*/
+    --hover: 0.4s ease-in-out;/*Customizable*/
+    --nav_position: fixed;/*Can be absolute/relative/fixed*/
+    --bg-offwhite: #eee;/*Customizable*/
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.5);/*Customizable*/
+    --success: #34CD34;/*Customizable*/
+    --error: #f05454;/*Customizable*/
+}
+
+Demo
+Click this link for a live demo : http://surjithctly.github.io/documentation-html-template/
+
+Credits
+-opacity css
+-Tobii LightBox
+-Swipper JS
+-Pexels & Unsplash
+-Google Fonts
+
+Browser Testing by Browserstack
+
+
+//////////////////////////////
+Point To Be Noted :
+
++This Template Is Frontend Only.Need Backend for Working Site.+
+See Documentation: https://code-opacity.github.io/opacity/
+Theme Grid System: https://code-opacity.github.io/opacity/#line3
+Theme Reset System: https://code-opacity.github.io/opacity/#line8

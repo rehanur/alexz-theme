@@ -1,0 +1,5 @@
+
+Icon
+200 x 200px icon image (.JPG or .PNG)
+Preview Image
+1600 x 800 preview image (.JPG or .PNG)

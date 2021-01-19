@@ -1,0 +1,95 @@
+/*flex-box*/
+.dflex{
+display: flex;
+}
+.flex{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.flex-c{
+display: flex;
+flex-direction: column;
+}
+.wrap{
+flex-wrap: wrap;
+}
+ 
+/*==============order=============*/
+.order-1{
+order: -1;
+}
+.order-2{
+order: 2;
+}
+.order-3{
+order: 3;
+}
+.order-4{
+order: 4;
+}
+.order-5{
+order: 5;
+}
+.order-6{
+order: 6;
+}
+ 
+@media screen and (max-width: 576px){
+.flex{
+flex-wrap: wrap;
+flex-direction: column;
+text-align: center;
+}
+}
+
+/*----------------------------------------------position---------------------------*/
+ 
+/*img*/
+.img,.max{
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+}
+/*position*/
+.p-r{
+position: relative;
+}
+.p-a{
+position: absolute;
+}
+.p-f{
+position: fixed;
+}
+.p-s{
+position: sticky;
+}
+/*z-index*/
+.z-top{
+z-index: 100;
+}
+.z-nav{
+z-index: 1000;
+}
+.z-back{
+z-index: -1;
+}
+.z-tooltip{
+z-index: 900;
+}
+/*end*/
+/*coloring*/
+.bg-dark{
+background: #000000;
+color: #f5f5f5;
+}
+.bg-light{
+background: #f5f5f5;
+color: #181818;
+}
+ 
+.o50{
+opacity: .7;
+}
